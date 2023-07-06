@@ -38,7 +38,7 @@ footer {
     background-color: #2E2F42;
 }
 
-ul li {
+.list {
     list-style-type: none;
 }
 a {
