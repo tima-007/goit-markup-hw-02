@@ -75,14 +75,14 @@ h3 {
     line-height: 1.17;
 }
 
-.main-menu {
+.list {
     font-weight: var(--font-size-bodyMedium);
 }
-.main-menu a:hover, 
-.main-menu a:focus {
+.list a:hover, 
+.list a:focus {
 color: var(--hover-focus);
 }
-.main-menu a:active{
+.list a:active{
 color: var(--active);
 }
 
