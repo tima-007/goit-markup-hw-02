@@ -1,7 +1,7 @@
 :root {
     --brand-color: #4D5AE5;
     --dark-color: #2E2F42;
-    --ocean-color: #404BBF;
+    --ocean-color: #404bbf;
     --iris-color: #4D5AE5;
     --cloud-color: #F4F4FD;
     --font-weight-body: 400;
@@ -13,7 +13,7 @@
 
     --font-size-bodyMedium: 500;
 
-    --hover-focus: #4D5AE5;
+    --hover-focus: #404bbf;
     --active: #404BBF;
 
     --mainWhite: #FFFFFF;
@@ -64,6 +64,7 @@ h3 {
     letter-spacing: 0.03em;
     color: var(--brand-color);
     font-family: "Raleway", sans-serif;
+    text-decoration: none;
 }
 .webstudio-logo.link {
     text-decoration: none;
@@ -76,11 +77,18 @@ h3 {
     line-height: 1.17;
 }
 
-.list a {
+
+.list .list-studio {
     font-weight: var(--font-size-bodyMedium);
     text-decoration: none;
     color: var();
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 }
+.list .list-studio .link {
+    text-decoration: none;
+}
+
 .list a:hover, 
 .list a:focus {
 color: var(--hover-focus);
@@ -88,6 +96,8 @@ color: var(--hover-focus);
 .list a:active{
 color: var(--active);
 }
+
+
 
 .header-addres {
     font-style: normal;
