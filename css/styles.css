@@ -92,6 +92,7 @@ color: var(--active);
 .header-addres {
     font-style: normal;
     font-weight: var(--font-weight-body);
+    list-style-type: none;
 }
 .header-addres a:hover,
 .header-addres a:focus {
