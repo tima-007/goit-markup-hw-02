@@ -1,0 +1,102 @@
+:root {
+    --brand-color: #4D5AE5;
+    --dark-color: #2E2F42;
+    ---ocean-color: #404BBF;
+    --iris-color: #4D5AE5;
+    --cloud-color: #F4F4FD;
+    --font-weight-body: 400;
+    --font-size-body: 16px;
+    --font-family-body: Roboto, sans-serif;
+
+    --font-weight-smallText: 400;
+    --font-size-smallText: 16px;
+
+    --font-size-bodyMedium: 500;
+
+    --hover-focus: #4D5AE5;
+    --active: #404BBF;
+
+    --mainWhite: #FFFFFF;
+
+}
+header {
+    background-color: #FFFFFF;
+}
+
+body {
+    font-family: var(--font-family-body);
+    font-weight: var(--font-weight-body);
+    font-size: var(--font-size-body);
+    color: #434455;
+    background-color: #FFFFFF;
+    line-height: 24px;
+    letter-spacing: 2;
+} 
+
+footer {
+    color: #F4F4FD;
+    background-color: #2E2F42;
+}
+
+ul li {
+    list-style-type: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    font-size: inherit;
+    font-weight: inherit;
+}
+h3 {
+    color: inherit;
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 2;
+}
+
+
+.webstudio-logo {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: var(--brand-color)
+}
+.studio-logo {
+    color: var(--dark-color);
+}
+
+.main-menu {
+    font-weight: var(--font-size-bodyMedium);
+}
+.main-menu a:hover, 
+.main-menu a:focus {
+color: var(--hover-focus);
+}
+.main-menu a:active{
+color: var(--active);
+}
+
+.header-addres {
+    font-style: normal;
+    font-weight: var(--font-weight-body);
+}
+.header-addres a:hover,
+.header-addres a:focus {
+    color: var(--hover-focus);
+}
+.header-addres a:active {
+    color: var(--active);
+}
+
+.button-list .button-first {
+    color: var(--mainWhite);
+    background-color: var(---ocean-color);
+}
+.button-list .button {
+    color: var(--iris-color);
+}
+
+
+.footer-logo {
+    color: var(--cloud-color);
+}
