@@ -59,10 +59,13 @@ h3 {
     font-size: 18px;
     font-weight: 800;
     text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--brand-color)
 }
 .studio-logo {
     color: var(--dark-color);
+    line-height: 1.17;
 }
 
 .main-menu {
@@ -98,5 +101,10 @@ color: var(--active);
 
 
 .footer-logo {
+    font-size: 18px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     color: var(--cloud-color);
 }
