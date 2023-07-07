@@ -70,10 +70,12 @@ body {
 
 .list .list-studio {
     font-weight: var(--font-size-bodyMedium);
-    text-decoration: none;
-    color: var();
-    letter-spacing: 0.02em;
-    color: #2e2f42;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--navy-blueColor);
 }
 .list .list-studio .link {
     text-decoration: none;
@@ -81,11 +83,11 @@ body {
 
 
 
----.list a:hover, 
----.list a:focus {
+.list a:hover, 
+.list a:focus {
 color: var(--hover-focus);
 }
----.list a:active{
+.list a:active{
 color: var(--active);
 }
 
