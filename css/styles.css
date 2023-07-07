@@ -209,10 +209,35 @@ h3 {
     color: var(--slateColor);
 }
 
-.what-we-doing .what-we-doing-list {
+.what-we-doing .header {
+    text-align: center;
+    font-family: var(--font-family-body);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: var(--navy-blueColor);
+}
+.what-we-doing .list {
     list-style: none;
 }
 
-.team .team-list {
+.team {
+    background-color: #F4F4FD;
+}
+.team .list {
     list-style: none;
+}
+.team .team-header {
+    text-align: center;
+    font-family: var(--font-family-body);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+    color: var(--navy-blueColor);
 }
