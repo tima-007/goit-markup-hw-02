@@ -108,6 +108,7 @@ color: var(--active);
     letter-spacing: 0.02em;
     color: #434455;
     text-decoration: none;
+    font-style: normal;
 }
 .header-addres .list .link:hover,
 .header-addres .list .link:focus {
