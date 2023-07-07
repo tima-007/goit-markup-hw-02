@@ -69,22 +69,13 @@ body {
 
 
 .list .list-studio {
-    font-weight: var(--font-size-bodyMedium);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    color: var(--navy-blueColor);
-    line-height: 1.5;
+    text-decoration: none;
 }
 .list .list-studio .link {
-    text-decoration: none;
     font-weight: var(--font-size-bodyMedium);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 24px;
     letter-spacing: 0.32px;
     color: var(--navy-blueColor);
     line-height: 1.5;
