@@ -21,6 +21,8 @@
 
     --mainWhite: #FFFFFF;
 
+    --buttonColour: #4d5ae5;
+
 }
 header {
     background-color: #FFFFFF;
@@ -291,7 +293,7 @@ h3 {
     line-height: 24px;
     letter-spacing: 0.64px;
     color: var(--white);
-    background-color: var(--brand-color);
+    background-color: var(--buttonColour);
     cursor: pointer;
 }
 .list .button {
@@ -302,7 +304,7 @@ h3 {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    color: #4d5ae5;
+    color: var(--buttonColour);
     background-color: #F4F4FD;
     cursor: pointer;
 }
