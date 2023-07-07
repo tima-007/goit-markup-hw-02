@@ -17,6 +17,7 @@
     --hover-focus: #404bbf;
     --active: #404BBF;
     --navy-blueColor: #2E2F42;
+    --slateColor: #434455;
 
     --mainWhite: #FFFFFF;
 
@@ -141,7 +142,7 @@ color: var(--active);
     background-color: #2E2F42;
 }
 .main .main-text {
-    font-family: Roboto;
+    font-family: var(--font-family-body);
     font-size: 56px;
     font-style: normal;
     font-weight: 700;
@@ -152,7 +153,6 @@ color: var(--active);
     text-align: center;
 }
 .main .button {
-    font-family: Roboto;
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -160,7 +160,7 @@ color: var(--active);
     letter-spacing: 0.64px;
     color: var(--white);
     background-color: var(--iris-color);
-    font-family: "Roboto", sans-serif;
+    font-family: var(--font-family-body);
     cursor: pointer;
 }
 .main .button:hover,
@@ -169,7 +169,7 @@ background-color: #404BBF;
 }
 
 h2 {
-    font-family: Roboto;
+    font-family: var(--font-family-body);
     font-size: 36px;
     font-style: normal;
     font-weight: 700;
@@ -178,7 +178,7 @@ h2 {
     text-transform: capitalize;
 }
 h3 {
-    font-family: Roboto;
+    font-family: var(--font-family-body);
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
@@ -186,8 +186,27 @@ h3 {
     letter-spacing: 0.4px;
     color: var(--navy-blueColor);
 }
-.strategy .strategy-list {
+.strategy .list {
     list-style: none;
+}
+.strategy .list .strategy-header {
+    font-family: var(--font-family-body);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: var(--navy-blueColor);
+}
+
+.strategy .list .strategy-text {
+    font-family: var(--font-family-body);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--slateColor);
 }
 
 .what-we-doing .what-we-doing-list {
