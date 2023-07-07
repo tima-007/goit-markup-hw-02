@@ -4,6 +4,7 @@
     --ocean-color: #404bbf;
     --iris-color: #4D5AE5;
     --cloud-color: #F4F4FD;
+    --white: #FFFFFF;
     --font-weight-body: 400;
     --font-size-body: 16px;
     --font-family-body: "Roboto", sans-serif;
@@ -15,6 +16,7 @@
 
     --hover-focus: #404bbf;
     --active: #404BBF;
+    --navy-blueColor: #2E2F42;
 
     --mainWhite: #FFFFFF;
 
@@ -24,13 +26,12 @@ header {
 }
 
 body {
-    font-family: var(--font-family-body);
-    font-weight: var(--font-weight-body);
-    font-size: var(--font-size-body);
-    color: #434455;
-    background-color: #FFFFFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
     line-height: 24px;
-    letter-spacing: 2;
+    letter-spacing: 0.32px;
 } 
 
 footer {
@@ -47,12 +48,6 @@ footer {
     text-decoration: none;
     font-size: inherit;
     font-weight: inherit;
-}
-h3 {
-    color: inherit;
-    font-weight: 500;
-    font-size: 20px;
-    letter-spacing: 2;
 }
 
 
@@ -134,4 +129,60 @@ color: var(--active);
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--cloud-color);
+}
+
+
+
+
+
+.main {
+    background-color: #2E2F42;
+}
+.main .main-text {
+    font-family: Roboto;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1.12px;
+    color: var(--white);
+}
+.main .button {
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.64px;
+    color: var(--white);
+    background-color: var(--iris-color);
+}
+h2 {
+    font-family: Roboto;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0.72px;
+    text-transform: capitalize;
+}
+h3 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: var(--navy-blueColor);
+}
+.strategy .strategy-list {
+    list-style: none;
+}
+
+.what-we-doing .what-we-doing-list {
+    list-style: none;
+}
+
+.team .team-list {
+    list-style: none;
 }
