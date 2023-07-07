@@ -285,18 +285,7 @@ h3 {
 .list {
     list-style: none;
 }
-.list .button-first {
-    text-align: center;
-    font-family: var(--font-family-body);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 24px;
-    letter-spacing: 0.64px;
-    color: var(--white);
-    background-color: var(--buttonColour);
-    cursor: pointer;
-}
+
 .list .button {
     text-align: center;
     font-family: var(--font-family-body);
