@@ -108,6 +108,7 @@ color: var(--active);
     line-height: 24px;
     letter-spacing: 0.32px;
     text-decoration: none;
+    color: var(--slateColor);
 }
 .header-addres .list .link:hover,
 .header-addres .list .link:focus {
