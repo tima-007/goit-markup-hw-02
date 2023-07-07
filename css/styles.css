@@ -76,13 +76,17 @@ body {
     text-decoration: none;
 }
 
-.list a:hover, 
-.list a:focus {
+
+
+---.list a:hover, 
+---.list a:focus {
 color: var(--hover-focus);
 }
-.list a:active{
+---.list a:active{
 color: var(--active);
 }
+
+
 
 .header-addres {
     font-style: normal;
@@ -147,8 +151,8 @@ color: var(--active);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    color: #4D5AE5;
-    background-color: var(--iris-color);
+    color: var(--white);
+    background-color: #4D5AE5;
     font-family: var(--font-family-body);
     cursor: pointer;
 }
@@ -309,7 +313,7 @@ color: #404BBF ;
 }
 
 
-.list .link .header {
+.list .link {
     font-family: var(--font-family-body);
     font-size: 20px;
     font-style: normal;
@@ -317,18 +321,5 @@ color: #404BBF ;
     line-height: 24px;
     letter-spacing: 0.4px;
     color: var(--navy-blueColor);
-}
-.list .link .text {
-    font-family: var(--font-family-body);
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 24px;
-    letter-spacing: 0.32px;
-    color: #434455;
-}
-
-.list.link {
     text-decoration: none;
-    list-style-type: none;
- }
+}
