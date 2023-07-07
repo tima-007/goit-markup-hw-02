@@ -2,7 +2,7 @@
     --brand-color: #4D5AE5;
     --dark-color: #2E2F42;
     --ocean-color: #404bbf;
-    --iris-color: #4D5AE5;
+    --iris-color: ##4d5ae5;
     --cloud-color: #F4F4FD;
     --white: #FFFFFF;
     --font-weight-body: 400;
@@ -287,7 +287,8 @@ h3 {
     line-height: 24px;
     letter-spacing: 0.64px;
     color: var(--white);
-    background-color: var(--ocean-color);
+    background-color: var(--brand-color);
+    cursor: pointer;
 }
 .list .button {
     text-align: center;
@@ -298,7 +299,10 @@ h3 {
     line-height: 24px;
     letter-spacing: 0.64px;
     color: var(--iris-color);
+    background-color: var(--cloud-color);
+    cursor: pointer;
 }
+
 
 
 .list .link .header {
@@ -320,7 +324,7 @@ h3 {
     color: #434455;
 }
 
-.link {
+.list .link {
     text-decoration: none;
     list-style-type: none;
  }
