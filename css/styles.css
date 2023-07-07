@@ -53,7 +53,7 @@ body {
     line-height: 1.17;
     letter-spacing: 0.03em;
     color: var(--brand-color);
-    font-family: "Raleway", sans-serif;
+    font-family: var(--font-family-body);
     text-decoration: none;
 }
 .webstudio-logo.link {
@@ -71,23 +71,23 @@ body {
 .list .list-studio {
     text-decoration: none;
 }
-.list .list-studio .link {
+.nav .list .link {
     font-weight: var(--font-size-bodyMedium);
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
     letter-spacing: 0.32px;
-    color: var(--navy-blueColor);
     line-height: 1.5;
+    color: var(--navy-blueColor);
 }
 
 
 
-.list a:hover, 
-.list a:focus {
+.nav .list .link:hover, 
+.nav .list .link:focus {
 color: var(--hover-focus);
 }
-.list a:active{
+.nav .list .link:active{
 color: var(--active);
 }
 
