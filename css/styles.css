@@ -97,18 +97,23 @@ color: var(--hover-focus);
 color: var(--active);
 }
 
+.header-addres .list {
+    list-style: none;
+}
 
-
-.header-addres {
+.header-addres .list .link {
     font-style: normal;
     font-weight: var(--font-weight-body);
-    list-style-type: none;
+    list-style: none;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-decoration: none;
 }
-.header-addres a:hover,
-.header-addres a:focus {
+.header-addres .list .link:hover,
+.header-addres .list .link:focus {
     color: var(--hover-focus);
 }
-.header-addres a:active {
+.header-addres .list .link:active {
     color: var(--active);
 }
 
