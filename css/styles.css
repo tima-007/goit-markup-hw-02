@@ -22,6 +22,7 @@
     --mainWhite: #FFFFFF;
 
     --buttonColour: #4d5ae5;
+    --button-BG-color: #F4F4FD;
 
 }
 header {
@@ -305,7 +306,7 @@ h3 {
     line-height: 24px;
     letter-spacing: 0.64px;
     color: var(--buttonColour);
-    background-color: #F4F4FD;
+    background-color: var(--button-BG-color);
     cursor: pointer;
 }
 
