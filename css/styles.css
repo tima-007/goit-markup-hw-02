@@ -299,3 +299,23 @@ h3 {
     letter-spacing: 0.64px;
     color: var(--iris-color);
 }
+
+
+.list .link .header {
+    font-family: var(--font-family-body);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.4px;
+    color: var(--navy-blueColor);
+}
+.list .link .text {
+    font-family: var(--font-family-body);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: #434455;
+}
