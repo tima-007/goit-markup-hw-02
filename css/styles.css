@@ -147,7 +147,7 @@ color: var(--active);
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    color: var(--white);
+    color: #4D5AE5;
     background-color: var(--iris-color);
     font-family: var(--font-family-body);
     cursor: pointer;
@@ -298,11 +298,15 @@ h3 {
     font-weight: 500;
     line-height: 24px;
     letter-spacing: 0.64px;
-    color: var(--iris-color);
-    background-color: var(--cloud-color);
+    color: #4d5ae5;
+    background-color: #F4F4FD;
     cursor: pointer;
 }
 
+.list .button:hover, 
+.list .button:focus {
+color: #404BBF ;
+}
 
 
 .list .link .header {
@@ -324,7 +328,7 @@ h3 {
     color: #434455;
 }
 
-.list .link {
+.list.link {
     text-decoration: none;
     list-style-type: none;
  }
