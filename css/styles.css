@@ -27,15 +27,15 @@ h1 {
     color: var(--whiteColor);
     text-align: center;
     font-size: 56px;
-    line-height: 1.08;
-    letter-spacing: 0.07em;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
 }
 h2 {
     color: var(--navyBlueColor);
     text-align: center;
     font-size: 36px;
     line-height: 1.11;
-    letter-spacing: 0.045em;
+    letter-spacing: 0.04em;
     text-transform: capitalize;
 }
 h3 {
@@ -43,7 +43,7 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;
-    letter-spacing: 0.025em;
+    letter-spacing: 0.02em;
 }
 p {
     line-height: 1.5;
@@ -57,7 +57,7 @@ nav a {
     list-style: none;
 }
 .link {
-    color: inherit;
+    color: var(--navyBlueColor);
     text-decoration: none;
 }
 .link:hover,
@@ -86,9 +86,15 @@ nav a {
 }
 
 .order-button {
+    font-family: 'Roboto' sans-serif;
     cursor: pointer;
     color: var(--whiteColor);
     background-color: var(--irisColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
 }
 .order-button:hover,
 .order-button:focus {
