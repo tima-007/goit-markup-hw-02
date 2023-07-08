@@ -53,6 +53,9 @@ nav a {
     text-decoration: none;
 }
 
+
+
+
 .list {
     list-style: none;
 }
@@ -70,6 +73,7 @@ nav a {
 }
 .header-addres {
     font-style: normal;
+    color: var(--slateColor);
 }
 
 .logo.link {
@@ -98,5 +102,21 @@ nav a {
 }
 .order-button:hover,
 .order-button:focus {
+    background-color: var(--oceanColor);
+}
+
+.filter-button {
+    color: var(--irisColor);
+    background-color: var(--cloudColor);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--whiteColor);
     background-color: var(--oceanColor);
 }
