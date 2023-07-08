@@ -49,6 +49,7 @@ h3 {
 p {
     line-height: 1.5;
     letter-spacing: 0.02em;
+    font-size: 16px;
 }
 nav a {
     text-decoration: none;
@@ -111,7 +112,6 @@ nav a {
     background-color: var(--oceanColor);
 }
 
-/* Portfolio page */
 .filter-button {
     color: var(--irisColor);
     background-color: var(--cloudColor);
@@ -136,6 +136,13 @@ nav a {
     background-color: var(--whiteColor);
 }
 
+.team-header,
+.stratehy-header {
+    letter-spacing: 0.02em;
+}
+
+
+
 .portfolio-header {
     font-size: 20px;
     line-height: 1.2;
@@ -150,3 +157,4 @@ nav a {
     color: var(--cloudColor);
     background-color: var(--navyBlueColor);
 }
+
