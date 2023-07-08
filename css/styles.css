@@ -14,7 +14,8 @@ header {
 }
 
 body {
-    font-family: 'Roboto', 'Raleway', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    color: var(--slateColor);
     background-color: var(--whiteColor);
     font-size: 16px;
 } 
