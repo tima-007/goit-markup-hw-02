@@ -90,6 +90,9 @@ nav a {
 .logo.link2 {
     color: var(--navyBlueColor);
 }
+.logo.link3 {
+    color: var(--cloudColor);
+}
 
 .order-button {
     font-family: 'Roboto', sans-serif;
@@ -131,6 +134,12 @@ nav a {
     background-color: var(--whiteColor);
 }
 
+.portfolio-header {
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+}
 
 .footer {
     color: var(--cloudColor);
