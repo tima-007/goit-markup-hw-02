@@ -116,6 +116,7 @@ nav a {
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    cursor: pointer;
 }
 .filter-button:hover,
 .filter-button:focus {
@@ -128,4 +129,10 @@ nav a {
 }
 .item {
     background-color: var(--whiteColor);
+}
+
+
+.footer {
+    color: var(--cloudColor);
+    background-color: var(--navyBlueColor);
 }
