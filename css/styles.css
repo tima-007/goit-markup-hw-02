@@ -88,10 +88,10 @@ nav a {
     letter-spacing: 0.03em;
     text-transform: uppercase;
 }
-.logo.Studio {
+.logo-studio {
     color: var(--navyBlueColor);
 }
-.logo.link2 {
+.logo-studio2 {
     color: var(--cloudColor);
 }
 
