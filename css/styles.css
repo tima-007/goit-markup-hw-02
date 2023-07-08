@@ -71,7 +71,7 @@ nav a {
 .header-main {
     background-color: var(--navyBlueColor);
 }
-.header-addres {
+.header-addres a {
     font-style: normal;
     color: var(--slateColor);
 }
