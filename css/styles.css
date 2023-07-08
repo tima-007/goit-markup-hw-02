@@ -71,7 +71,7 @@ nav a {
 .header {
     background-color: var(--navyBlueColor);
 }
-.header-addres {
+.header-addres .link {
     font-style: normal;
     color: var(--slateColor);
 }
@@ -90,7 +90,7 @@ nav a {
 }
 
 .order-button {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     cursor: pointer;
     color: var(--whiteColor);
     background-color: var(--irisColor);
