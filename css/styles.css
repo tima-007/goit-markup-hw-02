@@ -91,7 +91,7 @@ nav a {
 .logo-studio {
     color: var(--navyBlueColor);
 }
-.logo-studio2 {
+.logo-footer {
     color: var(--cloudColor);
 }
 
@@ -140,7 +140,6 @@ nav a {
 .stratehy-header {
     letter-spacing: 0.02em;
 }
-
 
 
 .portfolio-header {
