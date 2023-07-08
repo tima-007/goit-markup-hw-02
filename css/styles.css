@@ -71,8 +71,10 @@ nav a {
 .header-main {
     background-color: var(--navyBlueColor);
 }
-.header-addres a {
+.header-addres {
     font-style: normal;
+}
+.header-addres a {
     color: var(--slateColor);
 }
 
@@ -119,4 +121,11 @@ nav a {
 .filter-button:focus {
     color: var(--whiteColor);
     background-color: var(--oceanColor);
+}
+
+.team {
+    background-color: var(--cloudColor);
+}
+.item {
+    background-color: var(--whiteColor);
 }
