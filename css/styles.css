@@ -1,0 +1,122 @@
+:root {
+  --irisColor: #4D5AE5;
+  --oceanColor: #404BBF;
+  --navyBlueColor: #2E2F42;
+  --slateColor: #434455;
+  --cloudColor: #F4F4FD;
+  --grayColor: #2E2F42;
+  --whiteColor: #FFFFFF;
+  --dairyColor: #FCFCFC;
+}
+
+header {
+    background-color: var(--whiteColor);
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: var(--slateColor);
+    background-color: var(--whiteColor);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+} 
+
+h1 {
+    color: var(--whiteColor);
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+}
+h2 {
+    color: var(--navyBlueColor);
+    text-align: center;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+}
+h3 {
+    color: var(--navyBlueColor);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+}
+p {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+nav a {
+    text-decoration: none;
+}
+
+
+
+
+.list {
+    list-style: none;
+}
+.link {
+    color: var(--navyBlueColor);
+    text-decoration: none;
+}
+.link:hover,
+.link:focus {
+    color: var(--oceanColor);
+}
+
+.header {
+    background-color: var(--navyBlueColor);
+}
+.header-addres {
+    font-style: normal;
+    color: var(--slateColor);
+}
+
+.logo.link {
+    color: var(--irisColor);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo.link2 {
+    color: var(--navyBlueColor);
+}
+
+.order-button {
+    font-family: 'Roboto', sans-serif;
+    cursor: pointer;
+    color: var(--whiteColor);
+    background-color: var(--irisColor);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+
+}
+.order-button:hover,
+.order-button:focus {
+    background-color: var(--oceanColor);
+}
+
+.filter-button {
+    color: var(--irisColor);
+    background-color: var(--cloudColor);
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+}
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--whiteColor);
+    background-color: var(--oceanColor);
+}
