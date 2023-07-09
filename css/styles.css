@@ -19,10 +19,7 @@ body {
 .header {
     background-color: var(--whiteColor);
 }
-.footer {
-    color: var(--cloudColor);
-    background-color: var(--navyBlueColor);
-}
+
 .list {
     list-style: none;
 }
@@ -89,6 +86,7 @@ body {
     font-size: 56px;
     line-height: 1.07;
     letter-spacing: 0.02em;
+    text-align: center;
 }
 
 /* Main button */
@@ -164,4 +162,12 @@ body {
     background-color: var(--oceanColor);
 }
 
-
+/* Footer */
+.footer {
+    background-color: var(--navyBlueColor);
+}
+.footer-text {
+    color: var(--cloudColor);
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
