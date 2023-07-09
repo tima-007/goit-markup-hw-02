@@ -22,16 +22,13 @@ body {
 .header {
     background-color: var(--whiteColor);
 }
-
 .footer {
     color: var(--cloudColor);
     background-color: var(--navyBlueColor);
 }
-
 .list {
     list-style: none;
 }
-
 .link {
     text-decoration: none;
 }
@@ -129,7 +126,8 @@ body {
    
 }
 
-.what-we-doing {
+.what-we-doing,
+.our-team-header {
     color: var(--navyBlueColor);
     text-align: center;
     font-size: 36px;
@@ -145,16 +143,6 @@ body {
 .our-team-item {
     background-color: var(--whiteColor);
 }
-
-.our-team-header {
-    color: var(--navyBlueColor);
-    text-align: center;
-    font-size: 36px;
-    line-height: 1.1;
-    letter-spacing: 0.04em;
-    text-transform: capitalize;
-}
-
 
 /* Portfolio page */
 .filter-button {
