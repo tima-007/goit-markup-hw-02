@@ -126,8 +126,7 @@ body {
 }
 
 .what-we-doing,
-.___temp,
-.our-team-header {
+.___temp {
     color: var(--navyBlueColor);
     text-align: center;
     font-size: 36px;
@@ -137,6 +136,15 @@ body {
     text-transform: capitalize;
 }
 
+.our-team-header {
+    color: var(--navyBlueColor);
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+}
 .our-team {
     background-color: var(--cloudColor);
 }
